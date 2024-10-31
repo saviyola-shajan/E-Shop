@@ -5,7 +5,7 @@ import {Grid} from '../components/Grid';
 import Banner from '../components/Banner';
 import Instagram from '../components/Instagram';
 import Signup from '../components/Signup';
-import Testimonial from '../components/testimonial';
+import Testimonial from '../components/Testimonial';
 import Subscription from '../components/Subscription';
 import MainComp from '../components/MainComp';
 

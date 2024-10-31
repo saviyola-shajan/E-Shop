@@ -5,7 +5,6 @@ const Testimonial = ({ name, rating, verified, content }) => {
     <div className="flex flex-wrap gap-6 items-start px-8 py-7 rounded-3xl border border-solid border-black border-opacity-10 max-md:px-5 bg-white shadow-md">
       <div className="flex flex-1 shrink justify-between items-start w-full basis-0 min-w-[240px]">
         <div className="flex flex-col flex-1 shrink w-full basis-0 min-w-[240px]">
-          {/* Star rating as boxes */}
           <div className="flex gap-2 items-start">
             {[...Array(rating)].map((_, i) => (
               <div
@@ -17,7 +16,6 @@ const Testimonial = ({ name, rating, verified, content }) => {
           </div>
 
           <div className="flex flex-col mt-4 w-full">
-            {/* Name and verified badge */}
             <div className="flex gap-1 items-center self-start text-xl font-bold leading-none text-black">
               <div className="self-stretch my-auto">{name}</div>
               {verified && (

@@ -14,8 +14,8 @@ function Subscription() {
 
 function SubscriptionForm() {
   return (
-    <form className="flex flex-col self-stretch my-auto text-base min-w-[240px] w-[349px]">
-      <div className="flex overflow-hidden gap-3 items-start px-4 py-3 max-w-full bg-white rounded-[62px] text-black text-opacity-40 w-[349px]">
+    <form className="flex flex-col self-stretch my-auto text-base min-w-[240px] w-[349px] ">
+      <div className="flex overflow-hidden gap-3 items-start px-4 py-3 max-w-full bg-white rounded-[62px] text-black text-opacity-40 w-[349px]  ">
         <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/e2f03936191f3af3d684591454051985eb354413c6b0268ef063c0cdcd4d89b8?placeholderIfAbsent=true&apiKey=c52adf39d782452a98f75530051b6cbf" className="object-contain shrink-0 w-6 aspect-square" alt="" />
         <label htmlFor="emailInput" className="sr-only">Enter your email address</label>
         <input

@@ -1,11 +1,11 @@
 
 const Footer = () => {
   return (
-    <footer className="flex flex-col items-center px-20 pt-36 pb-20 mt-0 w-full bg-zinc-100 max-md:px-5 max-md:pt-24 max-md:max-w-full">
+    <footer className="flex flex-col items-center px-20 pt-36 pb-20 mt-24 w-full bg-zinc-100 max-md:px-5 max-md:pt-24 max-md:max-w-full ">
       <div className="flex flex-wrap gap-10 justify-between items-start w-full max-w-[1240px] max-md:max-w-full">
         <div className="flex flex-col min-w-[240px] w-[248px]">
           <div className="flex flex-col max-w-full w-[248px]">
-            <h2 className="text-4xl font-extrabold text-black ">SHOP.CO</h2>
+            <h2 className="text-4xl font-extrabold text-black ">E-shop</h2>
             <p className="mt-6 text-sm leading-6 text-black text-opacity-60">
               We have clothes that suits your style and which youre proud to wear. From women to men.
             </p>
@@ -52,7 +52,7 @@ const Footer = () => {
       <hr className="shrink-0 mt-12 max-w-full h-px border border-solid border-black border-opacity-10 w-[1240px] max-md:mt-10" />
       <div className="flex flex-wrap gap-10 mt-5 w-full max-w-[1240px] max-md:max-w-full">
         <p className="my-auto text-sm text-right text-black text-opacity-60">
-          Shop.co © 2000-2023, All Rights Reserved
+          E-shop © 2024, All Rights Reserved
         </p>
         <div className="flex flex-1 gap-3 items-end justify-end">
           <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/8ee3aced6a9a0b7576f7f4188c63dacac99fff2572a1c2b2f93d0f6809db5fa5?placeholderIfAbsent=true&apiKey=c52adf39d782452a98f75530051b6cbf" className="object-contain shrink-0 aspect-[1.57] fill-white stroke-[0.224px] stroke-gray-300 w-[47px]" alt="Payment method icon" />

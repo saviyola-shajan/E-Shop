@@ -4,7 +4,7 @@ import Footer from './Footer';
 const Layout = ({ children }) => {
   return (
     <div className="flex overflow-hidden flex-col bg-white">
-      <div className="flex overflow-hidden flex-wrap gap-10 px-20 py-2.5 w-full text-sm font-medium text-white bg-black max-md:px-5 max-md:max-w-full">
+      <div className="flex overflow-hidden pl-[500px] flex-wrap gap-10 px-20 py-2.5 w-full text-sm font-medium text-white bg-black max-md:px-5 max-md:max-w-full">
         <div>
           <span className="">
             Sign up and get 20% off to your first order.{" "}

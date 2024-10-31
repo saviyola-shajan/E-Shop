@@ -8,7 +8,7 @@ const Banner = () => {
         className="object-cover absolute inset-0 w-full h-full max-md:h-[300px] max-md:w-auto" 
         alt="Promotional banner background" 
       />
-      <button className="relative gap-2 self-stretch p-4 bg-white min-h-[66px] z-10">
+      <button className="relative gap-2 self-stretch p-4 bg-white min-h-[66px] w-60 ml-[800px] z-10">
         see collection
       </button>
     </section>
